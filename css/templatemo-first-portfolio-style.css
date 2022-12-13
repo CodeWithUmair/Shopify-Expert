@@ -493,12 +493,16 @@ strong {
   padding: 8px 24px;
 }
 
+.shopify-black-text {
+  color: #000000;
+}
+
 .hero-title {
-  font-size: 44px;
+  font-size: 34px;
 }
 
 .hero h2 {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .hero-text {
@@ -747,13 +751,13 @@ strong {
   height: 100%;
 }
 
-.projects-image {
+/* .projects-image {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
-  transform: rotate(10deg) translateY(80px);
+  transform: rotate(90deg) translateY(80px);
   transition: all ease 0.5s;
-}
+} */
 
 .projects-title {
   margin-bottom: 20px;
