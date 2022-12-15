@@ -17,6 +17,7 @@
     border-radius: 20px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
     transition: 0.5s;
+    margin-top: 5rem;
 }
 
 .umair-projects-card:hover {
@@ -28,8 +29,8 @@
     left: 50%;
     top: -50px;
     transform: translateX(-50%);
-    width: 320px;
-    height: 250px;
+    width: 280px;
+    height: 187px;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, .35);
@@ -38,8 +39,8 @@
 }
 
 .umair-projects-card:hover .umair-projects-imgBx {
-    width: 280px;
-    height: 200px;
+    width: 330px;
+    height: 220px;
 }
 
 .umair-projects-imgBx img {
@@ -71,5 +72,28 @@
     font-size: 1.25em;
     font-weight: 600;
     color: #555;
-    line-height: 0.75e;
+    line-height: 1.2em;
+}
+
+.umair-projects-details button {
+    width: 140px;
+    height: 48px;
+    background-color: #14b789;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.umair-projects-details button:hover {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.umair-projects-details:hover button {
+    color: #14b789;
+    background-color: #fff;
 }
