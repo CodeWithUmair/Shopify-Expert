@@ -339,7 +339,7 @@ strong {
 
 .navbar .container {
   border-radius: var(--border-radius-small);
-  padding: 10px 25px;
+  padding: 3px 25px;
 }
 
 .navbar-brand {
