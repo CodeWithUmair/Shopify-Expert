@@ -16,7 +16,7 @@
 
 .umair-box {
     width: 300px;
-    height: 455px;
+    height: 100%;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -31,7 +31,7 @@
 }
 
 .umair-box h3 {
-    font-size: 35px;
+    font-size: 28px;
     padding: 20px 0;
     color: #444;
 }
