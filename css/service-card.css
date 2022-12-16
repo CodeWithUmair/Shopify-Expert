@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 #section_3 {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
-    transition: all 0.5 linear;
+    transition: all 0.5s linear;
 }
 
 .umair-container {
@@ -15,8 +17,8 @@
 }
 
 .umair-box {
-    width: 300px;
-    height: 100%;
+    max-width: 500px;
+    min-height: 350px;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -31,14 +33,15 @@
 }
 
 .umair-box h3 {
-    font-size: 28px;
+    font-size: 22px;
     padding: 20px 0;
-    color: #444;
+    color: rgb(0, 0, 0);
 }
 
 .umair-box p {
-    font-size: 15px;
-    color: #777;
+    font-size: 13px;
+    color: rgb(40, 40, 40);
+    text-align: justify;
 }
 
 .umair-box button {
@@ -64,6 +67,7 @@
     background-color: #fff;
 }
 
+
 .umair-box::before {
     width: 100%;
     height: 100%;
@@ -78,20 +82,20 @@
     width: 100%;
     height: 100%;
     background-color: #fbda61;
-    background-image: linear-gradient(45deg, #fdba61 0%, #535da1 100%);
+    background-image: linear-gradient(45deg, #747638 0%, #535da1 100%);
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     z-index: -2;
-    clip-path: circle(20% at 90% 10%);
+    clip-path: circle(18% at 90% 5%);
     transition: 0.2s;
 }
 
 .umair-box .count {
     position: absolute;
-    top: 15px;
-    right: 30px;
+    top: 5px;
+    right: 20px;
     font-size: 50px;
     font-weight: bolder;
     color: #fff;
@@ -108,5 +112,5 @@
 
 
 .umair-box:hover::before {
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
